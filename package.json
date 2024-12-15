@@ -1,0 +1,23 @@
+{
+  "name": "fzuer-static",
+  "version": "1.0.0",
+  "description": "fzuer static file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2451965602/tuchuan.git"
+  },
+  "keywords": [
+    "static",
+    "file"
+  ],
+  "author": "fzuer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2451965602/tuchuan/issues"
+  },
+  "homepage": "https://github.com/2451965602/tuchuan#readme"
+}
