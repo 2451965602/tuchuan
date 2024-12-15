@@ -1,6 +1,6 @@
 {
   "name": "fzuer-static",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fzuer static file",
   "main": "index.js",
   "scripts": {
