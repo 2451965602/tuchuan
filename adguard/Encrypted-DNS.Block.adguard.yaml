@@ -1,0 +1,29 @@
+# AdGuard Home custom filter.
+# Public/system encrypted DNS and application resolvers from dns.txt.
+# iQIYI resolvers
+||api.yuedu.dns.iqiyi.com^
+||bj.vip.waf.dns.iqiyi.com^
+||data.video.dns.iqiyi.com^
+||dns.iqiyi.com^
+||dns.qiyipic.iqiyi.com^
+||doh.iqiyi.com^
+||doh.ptqy.gitv.tv^
+||iface2.dns.iqiyi.com^
+||ipv6-static.dns.iqiyi.com^
+||passport.dns.iqiyi.com^
+||static.dns.qiyipic.iqiyi.com^
+||v6-data.video.dns.iqiyi.com^
+
+# Public, system, and vendor resolvers
+||apidns.kwd.inkuai.com^
+||dns.alidns.com^
+||dns.jd.com.gslb.qianxun.com^
+||dns.qq.com^
+||doh.dns.apple.com^
+||doh.jd.com^
+||dotserver.douyucdn.cn^
+||hdns.ksyun.com^
+||resolver.gslb.mi-idc.com^
+||resolver.mi.xiaomi.com^
+||resolver.msg.global.xiaomi.net^
+||resolver.msg.xiaomi.net^

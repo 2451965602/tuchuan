@@ -1,0 +1,77 @@
+# AdGuard Home custom filter.
+# Merged from HTTPDNS.Block.list, HTTPDNS.Block.sgmodule [Rule], and the
+# HTTPDNS-specific entries in rules.yaml. Entries are deduplicated.
+# IP-CIDR/IP-CIDR6 entries are omitted; AdGuard Home DNS filters cannot represent IP ranges.
+# Alibaba / Aliyun
+||httpdns.alicdn.com^
+||httpdns-api.aliyuncs.com^
+||httpdns-sc.aliyuncs.com^
+||resolvers-cn.httpdns.aliyuncs.com^
+
+# Baidu / Baidu BCE
+||httpsdns.baidu.com^
+||httpdns.baidu.com^
+||httpdns.baidubce.com^
+||httpdns.bcelive.com^
+
+# Bilibili
+||httpdns.bilivideo.com^
+
+# Huawei, iQIYI, JD, Kuwo, and Keep
+||httpdns.c.cdnhwc2.com^
+||dns.jd.com^
+||httpdns.kg.qq.com^
+||httpdns.calorietech.com^
+
+# Meituan
+||httpdns.meituan.com^
+||httpdnsvip.meituan.com^
+||httpdnsmultiapi.meituan.com^
+||httpdnsmultiapivip.meituan.com^
+||dnspod.meituan.httpdns.qcloud.com^
+||dnspod.meituan.httpdns.start.qcloud.com^
+
+# Momo and NetEase
+||httpdns.immomo.com^
+||httpdns.yunxinfw.com^
+||httpdns.yunxindns.com^
+||httpdns.n.netease.com^
+||httpdns-sdk.n.netease.com^
+||httpdns.music.163.com^
+||music.httpdns.c.163.com^
+||lofter.httpdns.c.163.com^
+
+# OPPO, Tencent Cloud, Volcengine, Weibo, WeChat, YY, and Zhihu
+||httpdns.ocloud.oppomobile.com^
+||httpdns.push.oppomobile.com^
+||httpdns.pro^
+||httpdns.volcengineapi.com^
+||dns.weibo.cn^
+||aedns.weixin.qq.com^
+||dns.weixin.qq.com^
+||dns.weixin.qq.com.cn^
+||yuyin-httpdns.gslb.yy.com^
+
+# Additional vendor HTTPDNS endpoints from dns.txt
+||httpdns.aliyuncs.com^
+||httpdns-browser.platform.dbankcloud.cn^
+||httpdns-platform-dbankcloud-com-drcn.wec.dbankedge.cn^
+||httpdns.browser.miui.com^
+||httpdns.c.163.com^
+||httpdns.cctv.com^
+||httpdns.danuoyi.tbcache.com^
+||httpdns.gslb.yy.com^
+||httpdns.huaweicloud.com^
+||httpdns.kwd.inkuai.com^
+||httpdns.music.ntes53.netease.com^
+||httpdns.n.shifen.com^
+||httpdns.ocloud.heytapmobi.com^
+||httpdns.platform.dbankcloud.cn^
+||httpdns.platform.dbankcloud.com^
+||httpdns.push.heytapmobi.com^
+||httpdns.tantanapp.com^
+||httpdns.zhihu.com^
+||httpdns.zybang.com^
+||httpdns1.cc.cdnhwc5.com^
+||ocloud-httpdns-cn.heytapmobi.com^
+||union-httpdns.gslb.yy.com^
